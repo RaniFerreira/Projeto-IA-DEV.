@@ -1,0 +1,237 @@
+body {
+	background-color: rgb(24, 24, 24);
+	color: #fff;
+}
+
+.cabecalho {
+	height: 80px;
+	background-color: #0b0b0b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo {
+	display: flex;
+	gap: 15px;
+}
+
+.cabecalho .menu {
+	display: flex;
+	gap: 30px;
+}
+
+.cabecalho .menu li a {
+	padding: 30px;
+	color: #e8e8e8;
+	font-weight: bolder;
+	font-size: 15px;
+	font-family: "Chalet";
+}
+
+.cabecalho .menu li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.home {
+	display: flex;
+	position: relative;
+	min-height: calc(100vh - 80px);
+}
+/*O uso de dois pontos duplos (::) em seletores 
+CSS indica que você está lidando com um pseudo-elemento.
+ Pseudo-elementos são usados para selecionar e estilizar partes 
+específicas de um elemento, como o 
+primeiro caractere ou a última linha, 
+sem a necessidade de adicionar marcação adicional ao HTML.*/
+.home::after { 
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7) 35%, transparent 65%);
+}
+
+.home .imagem-fundo {
+	width: 100%;
+	object-fit: cover;
+}
+
+.home .informacoes {
+	position: absolute;
+	z-index: 1;
+	min-height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 32px;
+	padding: 80px 80px 80px 170px;
+	max-width: 780px;
+}
+
+.home .informacoes img {
+	max-width: 150px;
+}
+
+.home .informacoes .lista-de-jogos {
+	display: flex;
+	gap: 32px;
+}
+
+.home .informacoes .titulo {
+	font-family: "ChaletComprime";
+	font-size: 55px;
+}
+
+.home .informacoes .texto {
+	font-family: "Chalet";
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.btn-conhecer,
+.btn-plataforma {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 0.5px solid #fff;
+	border-radius: 4px;
+	font-family: "ChaletComprime";
+	font-size: 28px;
+	text-align: center;
+	padding: 20px 40px;
+	text-transform: uppercase;
+	width: 50%;
+	transition: all 0.3s ease-in;
+}
+
+.btn-plataforma {
+	color: #fff;
+	width: 100%;
+	cursor: pointer;
+}
+
+.btn-conhecer:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.conhecer .capa-do-P {
+	width: 270px;
+}
+
+.conhecer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 50px;
+	align-items: center;
+}
+
+.conhecer .titulo {
+	font-family: "ChaletComprime";
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.conhecer .cartao {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #000;
+	width: 50%;
+	border-radius: 10px;
+	padding: 80px;
+	gap: 40px;
+}
+
+.conhecer .informacoes {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.conhecer .informacoes h3 {
+	font-family: "ChaletComprime";
+	font-size: 52px;
+	font-weight: 700;
+}
+
+.conhecer .informacoes p {
+	color: #e8e8e8;
+	font-family: "Chalet";
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.conhecer .informacoes .plataformas {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+	justify-content: center;
+}
+
+.conhecer .btn-plataforma .plataformas {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	transition: all 0.3s ease-in;
+	display: none;
+	opacity: 0;
+}
+
+.conhecer .btn-plataforma .plataformas.ativo {
+	display: flex;
+	opacity: 1;
+}
+
+.conhecer .btn-plataforma .plataformas li {
+	padding: 20px;
+}
+/* a partir desta linha,sendo específico em  qual elemento estilizar, 
+dando prioridade ao elemento filho, como tem varias li, especificamos 
+para que possa ser estilizada cada uma de uma forma de acordo o gosto de cada um*/
+.conhecer  .btn-plataforma .plataformas li:nth-child(1) {
+	border: 1px solid #00439c;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(1):hover {
+	background-color: #00439c;
+}
+.conhecer  .btn-plataforma .plataformas li:nth-child(2) {
+	border: 1px solid #387a26;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(2):hover { 
+	background-color: #387a26;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(3) {
+	border: 1px solid #00439c;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(3):hover {
+	background-color: #00439c;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(4) {
+	border: 1px solid #387a26;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(4):hover {
+	background-color: #387a26;
+}
+.conhecer  .btn-plataforma .plataformas li:nth-child(5) {
+	border: 1px solid #fcaf17;
+}
+
+.conhecer  .btn-plataforma .plataformas li:nth-child(5):hover {
+	background-color: #fcaf17;
+}
+
+/*
+O número em li:nth-child(1) refere-se à posição do elemento <li> que será estilizado.
+ Neste caso específico,
+ 1 indica que a regra de estilo se aplica ao primeiro filho <li> do elemento pai.*/
