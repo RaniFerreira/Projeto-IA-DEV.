@@ -1,5 +1,5 @@
 
-[Semana do Zero ao Programador Contratado]🕓 
+[Semana do Zero ao Programador Contratado]🕓 <br>
 DevEmDobro
 *Descrição 😄
 A "Semana do Zero ao Programador Contratado" é um projeto que consiste em um site inspirado no site do GTA,
