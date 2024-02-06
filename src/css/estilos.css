@@ -75,7 +75,7 @@ sem a necessidade de adicionar marcação adicional ao HTML.*/
 	max-width: 150px;
 }
 
-.home .informacoes .lista-de-jogos {
+.home .informacoes .lista {
 	display: flex;
 	gap: 32px;
 }
