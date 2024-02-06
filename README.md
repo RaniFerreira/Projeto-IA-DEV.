@@ -24,6 +24,7 @@ em uma variedade de dispositivos e tamanhos de tela, oferecendo uma experiência
 independentemente do dispositivo que ele esteja usando.<br>
 <br>
 *Funcionalidades Principais<br>
+-Suporte: direcionamneto ao W3Schools
 -Barra de navegação .<br>
 -Apresentação de linguagens de programação e frameworks.<br>
 -Botões de direcionamento para os sites das linguagens e frameworks.<br>
