@@ -37,4 +37,8 @@ independentemente do dispositivo que ele esteja usando.<br>
 Sinta-se à vontade para enviar sugestões.<br>
 Reporte problemas ou bugs na seção de "Issues".<br>
 Autor<br>
-[Ranielly Ferreira]
+[Ranielly Ferreira]<br>
+![Certificado do Meu Projeto](https://github.com/RaniFerreira/Projeto-IA-DEV./blob/main/certificadoDevEmDobro.jpeg)
+
+
+
