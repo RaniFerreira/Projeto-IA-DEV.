@@ -5,7 +5,7 @@ DevEmDobro<br>
 A "Semana do Zero ao Programador Contratado" é um projeto que consiste em um site inspirado no site do GTA,<br>
 onde os alunos podem personalizar o site de acordo com suas preferências. Utilizando HTML, CSS e JavaScript.<br>
 <br>
-Escolhi o tema de IA, aproventando assim para apresentar os frameworks que utilizam Inteligência Artificial.<br>
+Escolhi o tema de IA, aproveitando assim para apresentar os frameworks que utilizam Inteligência Artificial.<br>
 <br>
 *Esclarecimentos<br>
 JavaScript:<br>
